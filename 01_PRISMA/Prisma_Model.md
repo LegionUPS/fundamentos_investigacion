@@ -33,7 +33,7 @@ El modelo PRISMA se representa mediante un diagrama de flujo dividido en cuatro 
 ## 1.2.1 Flujo de trabajo
 
 <div style="text-align: center;">
-    <img src="../recursos/prisma_2020.png" alt="Flujo de trabajo" style="width: 800px;"/>
+    <img src="../recursos/prisma_2020.png" alt="Flujo de trabajo" style="width: 900px;"/>
 </div>
 
 La parte fundamental del diagrama son los 5 primeros cuadros desendentes que definen el proceso de revision, y las demas cajas, solo deben completarse si proceden, de lo contrario deben de ser eliminadas del diagrama de flujo.
