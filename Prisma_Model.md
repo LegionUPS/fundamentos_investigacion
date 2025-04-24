@@ -33,7 +33,7 @@ El modelo PRISMA se representa mediante un diagrama de flujo dividido en cuatro 
 ## 1.2.1 Flujo de trabajo
 
 <div style="text-align: center;">
-    <img src="../recursos/prisma_2020.png" alt="Flujo de trabajo" style="width: 900px;"/>
+    <img src="./recursos/prisma_2020.png" alt="Flujo de trabajo" style="width: 900px;"/>
 </div>
 
 La parte fundamental del diagrama son los 5 primeros cuadros desendentes que definen el proceso de revision, y las demas cajas, solo deben completarse si proceden, de lo contrario deben de ser eliminadas del diagrama de flujo.
@@ -81,14 +81,14 @@ Inclusión
 La declaración PRISMA 2020 consta de una lista de verificación de 27 elementos que aborda las secciones de introducción, métodos, resultados y discusión de un informe de revisión sistemática, y una lista de verificación de 12 elementos para el resumen. Una vez que los usuarios registren una respuesta para cada elemento de la(s) lista(s) de verificación a continuación, podrán generar y descargar un informe de su lista completa en formato Word o PDF.
 
 <div style="text-align: center;">
-    <img src="../recursos/checklist.png" alt="Flujo de trabajo tabla 1" style="width: 800px;"/>
+    <img src="./recursos/checklist.png" alt="Flujo de trabajo tabla 1" style="width: 800px;"/>
 </div>
 <div style="text-align: center;">
-    <img src="../recursos/checklist_1.png" alt="Flujo de trabajo tabla 1.1" style="width: 800px;"/>
+    <img src="./recursos/checklist_1.png" alt="Flujo de trabajo tabla 1.1" style="width: 800px;"/>
 </div>
 
 <div style="text-align: center;">
-    <img src="../recursos/checklist1.png" alt="Flujo de trabajo tabla 2" style="width: 800px;"/>
+    <img src="./recursos/checklist1.png" alt="Flujo de trabajo tabla 2" style="width: 800px;"/>
 </div>
 
 Al tambien ser usado en metaanalisis algunos items no seran incluidos por lo tanto no procederan o se pueden dejar en blanco.
