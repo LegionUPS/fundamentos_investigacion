@@ -165,21 +165,63 @@ ScienceDirect, también operada por Elsevier, permite acceder a artículos de al
 > **Nota:** El uso de operadores booleanos y filtros avanzados permite ajustar la estrategia de búsqueda según los objetivos del investigador. Estas técnicas son aplicables tanto en motores como en bases de datos académicas estructuradas.
 
 
-## 2.6. Generación de ecuaciones de búsqueda con ChatGPT
-ChatGPT puede ayudarte a crear estrategias de búsqueda según tus criterios. Por ejemplo:
+## 2.6. Creación de ecuaciones de búsqueda mediante ChatGPT
 
-**Entrada:** Quiero artículos sobre inteligencia artificial en diagnóstico médico sin incluir radiología.
+Para obtener ecuaciones de búsqueda de alta calidad utilizando modelos de lenguaje como ChatGPT, se recomienda formular las solicitudes en **inglés**, dado que estos modelos han demostrado una mayor precisión y riqueza semántica en dicho idioma. Además, se sugiere utilizar la versión **ChatGPT-4**, ya que ofrece mejores capacidades de interpretación, contextualización y generación de contenido académico.
 
-**Salida sugerida por ChatGPT:**
+Una estructura recomendada para construir ecuaciones complejas es la siguiente:
+
 ```text
-("artificial intelligence" OR "machine learning") AND "medical diagnosis" NOT "radiology"
+Create a search equation for Scopus by combining the following keywords:
+ChatGPT
+Artificial Intelligence
+Students
+Utaut2
+Tam
 ```
 
-Esta ecuación puede pegarse directamente en bases como Scopus o PubMed.
+A partir de esta entrada, ChatGPT puede generar una ecuación optimizada como la siguiente:
+
+```sql
+(TITLE-ABS-KEY("ChatGPT") AND
+ TITLE-ABS-KEY("Artificial Intelligence") AND
+ TITLE-ABS-KEY("Students") AND
+ (TITLE-ABS-KEY("UTAUT2") OR TITLE-ABS-KEY("Unified Theory of Acceptance and Use of Technology")) AND
+ (TITLE-ABS-KEY("TAM") OR TITLE-ABS-KEY("Technology Acceptance Model")))
+```
+
+Esta salida está acompañada de una explicación detallada sobre los conectores booleanos utilizados y la lógica aplicada. Al aplicar esta ecuación en un buscador académico como Scopus o Google Scholar, se obtiene una cantidad precisa de resultados (por ejemplo, 26 documentos), lo cual representa un buen punto de partida para una revisión sistemática. Posteriormente, dichos documentos podrán ser filtrados mediante criterios como fecha de publicación, ubicación geográfica, autoría y tipo de documento, a fin de seleccionar solo aquellos de mayor relevancia para el estudio.
 
 ---
 
-## 2.5. Recomendaciones prácticas
+### 2.6.1. Optimizar resultados mediante personalización en ChatGPT
+
+Una forma efectiva de mejorar la calidad de las respuestas generadas por ChatGPT consiste en utilizar la función de **personalización del modelo**. En la sección correspondiente, el usuario puede proporcionar información contextual relevante sobre sus intereses académicos o profesionales, tales como:
+- El objetivo general del proyecto
+- El área de investigación
+- Nivel académico o rol laboral
+
+Este contexto permite al modelo ajustar su enfoque y entregar respuestas alineadas con las expectativas y necesidades del usuario.
+
+Asimismo, es posible definir el **estilo de respuesta** deseado. Para propósitos académicos, se recomienda optar por respuestas **formales, concisas y directas**, evitando desviaciones innecesarias o explicaciones extensas.
+
+> **Nota**: Se sugiere también solicitar directamente al modelo sugerencias sobre cómo mejorar los prompts de acuerdo con el objetivo específico de la investigación. Dependiendo del modelo de lenguaje utilizado, ciertas formulaciones podrán ofrecer mejores resultados que otras.
+
+### 2.6.2. Integración del lienzo interactivo (Canvas)
+
+Para proyectos de redacción colaborativa o codificación, el uso del **lienzo interactivo (canvas)** permite trabajar sobre fragmentos de texto o código de forma localizada. Entre sus ventajas destacan:
+- Edición de secciones específicas sin reescribir el documento completo.
+- Agregado de comentarios o ideas para que el modelo proponga mejoras.
+- Interacción línea por línea en documentos de código.
+
+Este enfoque resulta especialmente útil cuando se desarrollan textos largos, documentos con normas específicas (APA, IEEE, etc.), o proyectos de programación donde se requiere depuración incremental.
+
+En resumen, la personalización y el uso de herramientas como el lienzo permiten a los usuarios aprovechar al máximo el potencial de ChatGPT en entornos académicos y científicos, facilitando la generación de contenido de alta calidad y adaptado a sus necesidades específicas.
+
+
+---
+
+## 2.7. Recomendaciones prácticas
 - Usar filtros por año, tipo de artículo, y acceso abierto.
 - Guardar resultados en PDF o exportarlos a Mendeley.
 - Documentar las ecuaciones utilizadas en tu investigación.
@@ -195,7 +237,9 @@ Esta ecuación puede pegarse directamente en bases como Scopus o PubMed.
 - Búsqueda avanzada en PubMed: https://www.youtube.com/watch?v=m8aSV9QXJls
 - Cómo buscar artículos científicos | PubMed | Información actualizada | Ciencias de la salud: https://www.youtube.com/watch?v=fg18CxUYym4
 - ScienceDirect - Búsqueda avanzada - Operadores booleanos: https://www.youtube.com/watch?v=nAYXGYcAroo
-- 
+- ChatGPT Search ¿Cómo hacer búsquedas avanzadas?: https://www.youtube.com/watch?v=hHULLqHXt5w
+- Inteligencia Artificial: Crea Ecuaciones de Búsqueda para Scopus y Science Direct con ChatGPT: https://www.youtube.com/watch?v=7-Zlbqn4e7I
+- Cómo usar chatGPT para tu INVESTIGACIÓN y TESIS | Doctorandos, Postdocs e Investigadores: https://www.youtube.com/watch?v=6T1ZXnJLghg
 ---
 
 _Continuar con el Módulo 3: Uso de Mendeley para gestión bibliográfica._
